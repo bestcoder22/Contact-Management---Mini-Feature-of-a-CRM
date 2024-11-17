@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Atlas connection string (Replace with your connection string)
-const uri = "mongodb+srv://amrutkarsoham22:Girish%4022@cluster0.pmg5l.mongodb.net/";
+const uri = "mongodb+srv://<username>:<password>@cluster.mongodb.net/<database-name>";
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
