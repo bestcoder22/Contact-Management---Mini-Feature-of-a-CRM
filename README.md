@@ -16,7 +16,7 @@ Follow these steps to set up and run the project on your local machine.
 
 **1\. Clone the Repository**
 
-git clone <https://github.com/your-username/contact-management.git>
+git clone <https://github.com/bestcoder22/Contact-Management---Mini-Feature-of-a-CRM.git>
 
 cd contact-management
 
@@ -118,7 +118,3 @@ The frontend will run on <http://localhost:3000>.
 **4\. Pagination and Sorting**
 
 - Contacts are paginated and sortable by column headers for easy navigation.
-
-**Screenshots**
-
-1. **Contact List**
